@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+
+}
+
+
+.navbar{
+   
+    background :#333;
+}
+.navbar-toggler{
+    box-shadow: none !important;
+}
+
+.navbar .nav-link{
+    color: #fff !important; 
+    padding: 10px 24px;
+    display: block;
+   transition: 0.3s;
+   text-align: center;
+}
+
+
+
+.navbar .nav-link:hover{
+    background-color: rgb(210, 210, 210);
+    color: black !important;
+}
+
+
+.dropdown-content{
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 150px; 
+    z-index: 100;
+    position: absolute;
+    opacity: 0;
+}
+.dropdown-content li{
+     padding: 10px;
+}
+
+.dropdown-content li:hover{
+    background-color: rgb(210, 210, 210);
+   
+    
+}
+.dropdown-content li a:hover{
+   color: black;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+
+.dropdown-container:hover .dropdown-content{
+   opacity: 1;
+
+}
+
+
+/* brand */
+
+
+
+.heading{
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    margin:10px 0px;
+}
+
+.love{
+    color: rgb(108, 106, 106);
+}
+
+.para{
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: -0.5px;
+}
+
+.col-md-4 p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.col-md-4 img{
+    width:60% ;
+}
+
+
+
+
+/* .tour */
+
+
+.tour{
+    background-color: black;
+
+}
+
+.tour .month-div{
+    background-color: #fff;
+}
+.tour hr{
+    margin: 7px 0px;
+    color: rgb(99, 94, 94);
+}
+.tour .month-div span{
+    margin: 0px 8px;
+    display: inline-block;
+    padding: 5px 0px;
+}
+.tour .month-div .sold{
+  background-color: #f52;
+  color: #fff;
+  padding: 0px 4px;
+}
+
+
+.tour .three{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    margin:0px  2rem 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card {
+    width: 250px;
+    border:  none !important;
+}
+.card img{
+    width: 100%;
+   
+ 
+}
+
+.card-image{
+    position: relative !important;
+}
+
+.card .demo::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0;
+}
+
+.card-image:hover .demo::after{
+    opacity: 1;
+}
+
+
+
+
+.card span{
+    color: rgb(165, 150, 150);
+}
+
+.card-text{
+    font-weight: 400;
+     color: #333;
+}
+
+.card button:hover{
+    background-color:rgb(180, 186, 190) !important ;
+   color: black !important;
+}
+
+
+.follow{
+    overflow: hidden;
+}
+
+
+textarea{
+
+    width: 100%;
+    resize: none !important;
+    border: 1px solid rgb(108, 97, 97);
+    padding: 0px 4px;
+    margin: auto;
+}
+
+input{
+    box-shadow: none !important;
+    border: 1px solid rgb(108, 97, 97);
+}
+
+.contact .col-md-5 p{
+    font-size: 18px;
+    margin: 5px 0px;
+    font-weight: 400;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    padding: 60px 0px;
+    background-color: #f1f1f1!important;
+    color: #000;
+}
+footer p{
+    text-align: center;
+}
+
+footer a{
+   color: #000 ;
+}
+
+
+
+    @media screen and (max-width:992px) {
+       
+ 
+        
+        
+        .navbar .nav-link:hover{
+            background-color: transparent;
+            color: #f52 !important;
+        }
+
+        .dropdown-content{
+            display: none;
+        }
+        
+        
+    }

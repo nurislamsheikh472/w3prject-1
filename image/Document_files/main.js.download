@@ -1,0 +1,65 @@
+
+
+
+function myPicture1(){
+
+    let imgTag =  document.querySelector("img");
+
+    imgTag.src = "image/maruf.jpg";
+}
+
+function myPicture2(){
+
+    let imgTag =  document.querySelector("img");
+
+    imgTag.src = "image/md.jpeg";
+}
+
+
+
+
+
+
+//  let photos = ["image/maruf.jpg" , "image/md.jpeg" , "image/ms.jpg" ,"image/mm.jpg"];
+
+//  let count = 0;
+ 
+//  let imgTag = document.querySelector("img");
+// function Next(){
+
+//       count++;
+//       if( count >= photos.length){
+//           count = 0;
+//           imgTag.src = photos[count];
+
+//       }
+//       else{
+//           imgTag.src = photos[count];
+//       }
+
+
+
+// }
+
+
+// function prev(){
+
+//     count--;
+//     if( count < 0){
+//         count = photos.length -1;
+//         imgTag.src = photos[count];
+
+//     }
+//     else{
+//         imgTag.src = photos[count];
+//     }
+
+
+
+// }
+
+
+
+
+
+
